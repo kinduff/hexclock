@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HexClock, traduciendo la hora a colores</title>
+    <meta property="og:title" content="HexClock" />
+    <meta property="og:description" content="¿De qué color es la hora? Cada segundo, cada minuto y cada hora tienen un equivalente a color. Averígualo con HexClock." />
+    <meta property="og:url" content="http://abarcarodriguez.com/hexclock/" />
+    <meta property="og:image" content="http://abarcarodriguez.com/hexclock/img/logo.jpg" />
+    <meta property="og:type" content="website" />
+    <meta name="description" content="Blah" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="shadow">
+      <div id="social">
+        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://abarcarodriguez.com/hexclock/" data-text="HexClock, traduciendo la hora a colores" data-via="kinduff" data-lang="es" data-related="kinduff">Twittear</a>
+        <a href="#"><div class="fb-like" data-href="http://abarcarodriguez.com/hexclock/" data-send="false" data-layout="button_count" data-width="110" data-show-faces="false" data-font="arial"></div></a>
+      </div>
+      <div id="info">
+        <h1>HexClock</h1>
+        <p>Original <a href="http://www.thecolourclock.co.uk/" target="blank">colourclock</a> | </p>
+        <p>con ❤ por <a href="http://twitter.com/kinduff" target="blank">@kinduff</a></p>
+      </div>
+      <div id="kinduff">
+        <div class="scroll">
+          <p id="time"></p>
+          <p id="hex"></p>
+        </div>
+      </div>
+      <div class="contenedor">
+        <a href="#" id="left"></a><a href="#" id="right" class="active"></a>
+      </div>
+    </div>
+    <script>
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-34099371-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+    <div id="fb-root"></div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/webtoolkit.md5.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
